@@ -1,0 +1,30 @@
+2021-12-22T06:12:10+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_get_start_date() in C:\xampp\htdocs\charity\wp-content\plugins\nd-shortcodes\addons\eventscalendar\vc\layout\layout-1.php:70
+Stack trace:
+#0 C:\xampp\htdocs\charity\wp-content\plugins\nd-shortcodes\addons\eventscalendar\vc\index.php(53): include()
+#1 C:\xampp\htdocs\charity\wp-includes\shortcodes.php(356): nd_options_shortcode_eventscalendar_post_grid(Array, '', 'nd_options_even...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\charity\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(nd_opt...', 'do_shortcode_ta...', '[nd_options_eve...')
+#4 C:\xampp\htdocs\charity\wp-content\plugins\js_composer\include\helpers\helpers.php(240): do_shortcode('[nd_options_eve...')
+#5 C:\xampp\htdocs\charity\wp-content\plugins\js_composer\include\templates\shortcodes\vc_column_inner.php(51): wpb_js_remove_wpautop('[nd_options_eve...')
+#6 C:\xampp\htdocs\charity\wp-content\plugins\js_composer\include\classes\shortcodes\core\class-wpbakerysho in C:\xampp\htdocs\charity\wp-content\plugins\nd-shortcodes\addons\eventscalendar\vc\layout\layout-1.php on line 70
+
+2021-12-22T06:43:56+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_get_start_date() in C:\xampp\htdocs\charity\wp-content\plugins\nd-shortcodes\addons\eventscalendar\vc\layout\layout-1.php:70
+Stack trace:
+#0 C:\xampp\htdocs\charity\wp-content\plugins\nd-shortcodes\addons\eventscalendar\vc\index.php(53): include()
+#1 C:\xampp\htdocs\charity\wp-includes\shortcodes.php(356): nd_options_shortcode_eventscalendar_post_grid(Array, '', 'nd_options_even...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\charity\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(nd_opt...', 'do_shortcode_ta...', '[vc_container_a...')
+#4 C:\xampp\htdocs\charity\wp-content\plugins\js_composer\include\helpers\helpers.php(240): do_shortcode('[vc_container_a...')
+#5 C:\xampp\htdocs\charity\wp-content\plugins\js_composer\include\templates\shortcodes\vc_column_inner.php(51): wpb_js_remove_wpautop('[vc_container_a...')
+#6 C:\xampp\htdocs\charity\wp-content\plugins\js_composer\include\classes\shortcodes\core\class-wpbakerysho in C:\xampp\htdocs\charity\wp-content\plugins\nd-shortcodes\addons\eventscalendar\vc\layout\layout-1.php on line 70
+
+2021-12-22T06:46:32+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_get_start_date() in C:\xampp\htdocs\charity\wp-content\plugins\nd-shortcodes\addons\eventscalendar\vc\layout\layout-1.php:70
+Stack trace:
+#0 C:\xampp\htdocs\charity\wp-content\plugins\nd-shortcodes\addons\eventscalendar\vc\index.php(53): include()
+#1 C:\xampp\htdocs\charity\wp-includes\shortcodes.php(356): nd_options_shortcode_eventscalendar_post_grid(Array, '', 'nd_options_even...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\charity\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(nd_opt...', 'do_shortcode_ta...', '[vc_container_a...')
+#4 C:\xampp\htdocs\charity\wp-content\plugins\js_composer\include\helpers\helpers.php(240): do_shortcode('[vc_container_a...')
+#5 C:\xampp\htdocs\charity\wp-content\plugins\js_composer\include\templates\shortcodes\vc_column_inner.php(51): wpb_js_remove_wpautop('[vc_container_a...')
+#6 C:\xampp\htdocs\charity\wp-content\plugins\js_composer\include\classes\shortcodes\core\class-wpbakerysho in C:\xampp\htdocs\charity\wp-content\plugins\nd-shortcodes\addons\eventscalendar\vc\layout\layout-1.php on line 70
+
